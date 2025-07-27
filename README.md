@@ -1,10 +1,10 @@
   # ecommerce-manual-testing
 ##Manual QA Portfolio Project with real-world black-box testing for an e-commerce app
 
-###🔍 Demo Site Tested
+### 🔍 Demo Site Tested
 Demo WebShop – opencart (https://www.opencart.com/)
 
-####✅ Key Deliverables
+#### ✅ Key Deliverables
 
 1. Requirement Specification
 - Defines the core business features of the e-commerce app, including login, product search, cart, checkout, and payment.
