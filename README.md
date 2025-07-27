@@ -1,7 +1,7 @@
   # ecommerce-manual-testing
-##Manual QA Portfolio Project with real-world black-box testing for an e-commerce app
+## Manual QA Portfolio Project with real-world black-box testing for an e-commerce app
 
-### 🔍 Demo Site Tested
+### 🔍Demo Site Tested
 Demo WebShop – opencart (https://www.opencart.com/)
 
 #### ✅ Key Deliverables
