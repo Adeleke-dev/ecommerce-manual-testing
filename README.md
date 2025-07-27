@@ -48,4 +48,4 @@ This project highlights my practical experience in QA, simulating industry-stand
 📄 Test Summary Report (test-closure/Test_Summary_Report.md)
 
 📄 UAT Criteria (uat/UAT_Criteria.md)
-
+https://github.com/Adeleke-dev/ecommerce-manual-testing/blob/main/test-plan/Test_Plan
