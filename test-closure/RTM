@@ -1,0 +1,15 @@
+#  Requirements Traceability Matrix (RTM)
+## Maps each requirement to corresponding test cases and defects (if any).
+
+|     Requirement ID |        Requirement Description                      |      Test Case ID(s)        |   Defect ID(s)   |      Status         |
+| ------------------ | --------------------------------------------------- | --------------------------- | ---------------- | ------------------  |
+|   REQ_REG_01       | User must be able to register with valid data       |   TC_REG_001                | –                | ✅ Passed           |
+|   REQ_REG_02       | All fields must be validated                        |   TC_REG_002, TC_REG_003    | BUG-101          | ❌ Failed           |
+|   REQ_REG_03       | Passwords must match                                |   TC_REG_004                | –                | ✅ Passed           |
+|   REQ_REG_04       | Email must be unique                                |   TC_REG_005                | BUG-102          | ❌ Failed           |
+|   REQ_REG_05       | Username must be unique                             |   TC_REG_006                | –                | ✅ Passed           |
+|   REQ_REG_06       | Input fields should reject special characters       |   TC_REG_007, TC_REG_014    | BUG-103          | ❌ Failed           |
+|   REQ_REG_07       | Password length must follow defined rules           |   TC_REG_008 – TC_REG_010   | BUG-104          | ❌ Failed           |
+|   REQ_REG_08       | Newsletter opt-in/out should be optional            |   TC_REG\_011 – TC_REG_012  | –                | ✅ Passed           |
+|   REQ_REG_09       | Fields should be trimmed for whitespaces            |   TC_REG_013                | BUG-105          | ❌ Failed           |
+|   REQ_REG_10       | Duplicate registration after password reset blocked |   TC_REG_015                | BUG-106          | ❌ Failed           |
