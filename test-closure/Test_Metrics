@@ -1,0 +1,17 @@
+# Test Metrics Report – User Registration Module
+
+|         Metric                    |    Description                                    |   Value          |
+| --------------------------------- | ------------------------------------------------- | ---------------- |
+| Total Test Cases Executed         | Number of test cases run                          | 15               |
+| Test Cases Passed                 | Test cases that met expected results              | 9                |
+| Test Cases Failed                 | Test cases that did not meet expected results     | 6                |
+| Test Cases Blocked                | Test cases that could not be executed             | 0                |
+| Test Case Pass Percentage         | (Passed / Total) × 100                            | 60%              |
+| Test Case Fail Percentage         | (Failed / Total) × 100                            | 40%              |
+| Total Defects Logged              | Bugs identified during testing                    | 6                |
+| Critical Defects                  | Defects marked with critical severity             | 1 (BUG-102)      |
+| High Severity Defects             | Functional failures with high business impact     | 2 (BUG-101, 106) |
+| Medium Severity Defects           | Functional issues that don't block flow           | 2 (BUG-103, 104) |
+| Low Severity Defects              | Minor or cosmetic issues                          | 1 (BUG-105)      |
+| Defect Detection Percentage (DDP) | (Defects Found / Total Test Cases Executed) × 100 | 40%              |
+| Defects Reopened                  | Number of defects retested but reopened           | 0                |
