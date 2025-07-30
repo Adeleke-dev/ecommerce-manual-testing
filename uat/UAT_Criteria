@@ -1,1 +1,54 @@
 # UAT Criteria – User Registration Module
+
+1. Business Objective
+To ensure that new users can register on the e-commerce platform securely and
+without errors, with complete validation of input fields, uniqueness of email/username,
+and confirmation of successful registration.
+
+2. Acceptance Criteria
+
+|       |   UAT Criterion                                                                                     |       Status                        |
+| ----- | --------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| 1     | The user must be able to register using a valid first name, last name, email, username, and password. | ✔️                                   |
+| 2     | The system must prevent registration with an email or username that already exists.                 | ❌ (Pending fix for BUG-102, BUG-106) |
+| 3     | All mandatory fields must display validation errors when left blank or filled with invalid values.  | ❌ (Pending fix for BUG-101, BUG-103) |
+| 4     | Password and confirm password fields must match before form submission.                             | ✔️                                   |
+| 5     | Password field must enforce minimum and maximum length limits.                                      | ❌ (BUG-104)                          |
+| 6     | Input fields must reject or sanitise special characters where not allowed.                          | ❌ (BUG-103, BUG-105)                 |
+| 7     | The system must trim leading/trailing spaces before validation or storage.                          | ❌ (BUG-105)                          |
+| 8     | The registration process must show a success message or redirect upon successful completion.        | ✔️                                   |
+| 9     | Users must be able to opt in/out of newsletters without affecting registration success.             | ✔️                                   |
+| 10    | The system must prevent registration after a password reset using the same email.                   | ❌ (BUG-106)                          |
+
+
+3. Entry Criteria for UAT
+Functional and integration testing is complete.
+
+Major defects are resolved or deferred with mitigation.
+
+Test environment mimics production.
+
+The latest build is stable and deployed for UAT.
+
+UAT scenarios and test cases are reviewed and approved.
+
+4. Exit Criteria for UAT
+All critical and high-severity defects are resolved and verified.
+
+≥ 95% of UAT test cases are passed.
+
+No open showstopper issues.
+
+Stakeholders sign off on UAT completion.
+
+5. UAT Risk Areas
+Validation inconsistencies (e.g., username/email uniqueness).
+
+Weak error messaging for input handling.
+
+Overlooked UI/UX gaps in validation feedback.
+
+
+Conclusion
+UAT Readiness:  Not ready until defects BUG-101 through BUG-106 are resolved
+UAT can begin only after critical and high-priority bugs affecting validation and security are addressed.
