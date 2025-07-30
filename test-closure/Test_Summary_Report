@@ -1,1 +1,85 @@
+#  Test Summary Report – User Registration Module
 
+ ## Project Information
+Project Name: E-Commerce Manual Testing
+
+Module: User Registration
+
+Tested By: [Your Name]
+
+Test Start Date: [Insert Start Date]
+
+Test End Date: [Insert End Date]
+
+Test Environment:
+
+OS: Windows 10
+
+Browser: Chrome 124.0
+
+URL: https://www.opencart.com/index.php?route=account/register
+
+  Scope of Testing
+Functional testing of the user registration process using manual black-box techniques.
+
+Covered both positive and negative test cases using:
+
+Equivalence Partitioning (EP)
+
+Boundary Value Analysis (BVA)
+
+Decision Table
+
+Error Guessing
+
+State Transition
+
+Test Metrics
+
+|         Metric            |    Value  |
+| ------------------------- | --------- |
+| Total Test Cases Executed | 15        |
+| Test Cases Passed         | 9         |
+| Test Cases Failed         | 6         |
+| Test Cases Blocked        | 0         |
+| Total Defects Logged      | 6         |
+
+
+Defect Summary
+
+| Bug ID     |   Title                                         | Severity     |  Status    |
+| ---------- | ----------------------------------------------- | ------------ | ---------- |
+| BUG-101    | Username field allows blank submission          | High         | Open       |
+| BUG-102    | System allows duplicate email registration      | Critical     | Open       |
+| BUG-103    | First Name accepts special characters           | Medium       | Open       |
+| BUG-104    | Password exceeds max length with no error       | Medium       | Open       |
+| BUG-105    | Spaces in input fields not trimmed              | Low          | Open       |
+| BUG-106    | Registration allowed after password reset reuse | High         | Open       |
+
+
+ Test Coverage Summary
+
+|      Feature Area           |  Covered     |       Remarks                               |
+| --------------------------- | ------------ | ------------------------------------------- |
+| Required Field Validation   |   Yes        | All required fields tested                  |
+| Email & Username Uniqueness |   Yes        | Fails when duplicates used (bugs logged)    |
+| Password Rules              |   Yes        | Covered via BVA and mismatch scenarios      |
+| Newsletter Subscription     |   Yes        | Checked and unchecked states tested         |
+| Input Field Validation      |   Yes        | Special characters and spacing issues found |
+
+
+  Test Results Summary
+Test Result: Partially Passed
+
+Blocked?: No
+
+Major Failures:
+
+No validation for duplicate emails or usernames
+
+Weak handling of password length and input sanitisation
+
+Recommendation: Defects must be resolved before proceeding to the UAT phase.
+
+  Conclusion
+The user registration feature is not yet stable for release. While core functionality works under ideal conditions, several key negative path issues exist (duplicate handling, field validation). These must be resolved before deployment.
